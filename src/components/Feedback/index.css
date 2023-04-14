@@ -1,0 +1,55 @@
+/* Write your CSS code here. */
+.container {
+  background-image: linear-gradient(to right, #ffebeb, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.title {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+.emojis-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  list-style-type: none;
+}
+.emoji-btn {
+  margin: 20px;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.emoji {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 15px;
+}
+.love-emoji {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 15px;
+}
+.thank-you {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.para {
+  color: #1e293b;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
